@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Свадебное приглашение</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- БЛОК 1 -->
+  <section class="block1">
+    <img class="block1-img" src="img/1.png" alt="Приглашение">
+  </section>
+
+    <!-- БЛОК 2 -->
+  <section class="block1">
+    <img class="block1-img" src="img/2.png" alt="Приглашение">
+  </section>
+
+    <!-- БЛОК 3 -->
+  <section class="block1">
+    <img class="block1-img" src="img/3.png" alt="Приглашение">
+  </section>
+
+    <!-- БЛОК 4 -->
+  <section class="block1">
+    <img class="block1-img" src="img/4.png" alt="Приглашение">
+  </section>
+
+    <!-- БЛОК 5 -->
+  <section class="block1">
+    <img class="block1-img" src="img/5.png" alt="Приглашение">
+  </section>
+
+  <!-- БЛОК 6 -->
+
+<section class="block6">
+
+  <form class="block6-form" action="https://api.web3forms.com/submit" method="POST">
+
+    <!-- КЛЮЧ WEB3FORMS -->
+    <input type="hidden" name="access_key" value="7359a091-40ce-40ff-b634-9316d4ca917f">
+
+    <!-- ТЕМА ПИСЬМА -->
+    <input type="hidden" name="subject" value="Новая анкета со свадебного сайта">
+
+    <!-- ОТКЛЮЧАЕМ КАПЧУ -->
+    <input type="hidden" name="botcheck" value="false">
+
+    <!-- ФИО -->
+    <input 
+      class="block6-input"
+      type="text"
+      name="ФИО"
+      placeholder="Ваше ФИО"
+      required
+    >
+
+    <!-- ЧЕКБОКС -->
+    <label class="block6-check-wrap">
+
+      <input 
+        class="block6-checkbox"
+        type="checkbox"
+        name="Подтверждение"
+        value="Подтверждает присутствие"
+        required
+      >
+
+      <span class="block6-check-text">
+        Подтвердить присутствие
+      </span>
+
+    </label>
+
+    <!-- КНОПКА ФОТО -->
+    <button class="block6-btn" type="submit">
+      <img src="img/6.png" alt="">
+    </button>
+
+  </form>
+
+</section>
+
+    <!-- БЛОК 7 -->
+  <section class="block1">
+    <img class="block1-img" src="img/7.png" alt="Приглашение">
+  </section>
+
+  <!-- МУЗЫКА -->
+
+<audio id="bg-music" loop>
+  <source src="butyrka-a-dlja-vas-ja-nikto.mp3" type="audio/mpeg">
+</audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
