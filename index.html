@@ -37,22 +37,16 @@
 
 <section class="block6">
 
-  <form class="block6-form" action="https://api.web3forms.com/submit" method="POST">
-
-    <!-- КЛЮЧ WEB3FORMS -->
-    <input type="hidden" name="access_key" value="7359a091-40ce-40ff-b634-9316d4ca917f">
-
-    <!-- ТЕМА ПИСЬМА -->
-    <input type="hidden" name="subject" value="Новая анкета со свадебного сайта">
-
-    <!-- ОТКЛЮЧАЕМ КАПЧУ -->
-    <input type="hidden" name="botcheck" value="false">
+  <form
+    class="block6-form"
+    id="block6-form"
+  >
 
     <!-- ФИО -->
-    <input 
+    <input
       class="block6-input"
       type="text"
-      name="ФИО"
+      name="name"
       placeholder="Ваше ФИО"
       required
     >
@@ -60,10 +54,10 @@
     <!-- ЧЕКБОКС -->
     <label class="block6-check-wrap">
 
-      <input 
+      <input
         class="block6-checkbox"
         type="checkbox"
-        name="Подтверждение"
+        name="presence"
         value="Подтверждает присутствие"
         required
       >
@@ -74,7 +68,7 @@
 
     </label>
 
-    <!-- КНОПКА ФОТО -->
+    <!-- КНОПКА -->
     <button class="block6-btn" type="submit">
       <img src="img/6.png" alt="">
     </button>
